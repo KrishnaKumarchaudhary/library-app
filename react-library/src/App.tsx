@@ -1,9 +1,14 @@
-import './App.css';
+import "./App.css";
+import { Carousel } from "./layouts/HomePage/Carousel";
+import ExploreTopBooks from "./layouts/HomePage/ExploreTopBooks";
+import Navbar from "./layouts/NavbarAndFooter/Navbar";
 
 function App() {
   return (
     <div className="App">
-      <h1>Welcome to the fullstack course :-)</h1>
+      <Navbar />
+      <ExploreTopBooks />
+      <Carousel/>
     </div>
   );
 }
