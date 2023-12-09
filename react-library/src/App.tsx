@@ -1,14 +1,14 @@
 import "./App.css";
-import { Carousel } from "./layouts/HomePage/Carousel";
-import ExploreTopBooks from "./layouts/HomePage/ExploreTopBooks";
 import Navbar from "./layouts/NavbarAndFooter/Navbar";
+import { Footer } from "./layouts/NavbarAndFooter/Footer";
+import { HomePage } from "./layouts/HomePage/HomePage";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <Navbar />
-      <ExploreTopBooks />
-      <Carousel/>
+      <HomePage />
+      <Footer />
     </div>
   );
 }
