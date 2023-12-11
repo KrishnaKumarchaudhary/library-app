@@ -29,7 +29,7 @@ export const Carousel = () => {
           id: responseData[key].id,
           title: responseData[key].title,
           author: responseData[key].author,
-          discription: responseData[key].discription,
+          description: responseData[key].discription,
           copies: responseData[key].copies,
           copiesAvailable: responseData[key].copiesAvailable,
           category: responseData[key].category,

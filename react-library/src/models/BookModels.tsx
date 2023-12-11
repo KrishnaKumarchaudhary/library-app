@@ -2,7 +2,7 @@ class BookModel {
   id: number;
   title: string;
   author?: string;
-  discription?: string;
+  description?: string;
   copies?: number;
   copiesAvailable?: number;
   category?: string;
@@ -21,7 +21,7 @@ class BookModel {
     this.id = id;
     this.title = title;
     this.author = author;
-    this.discription = description;
+    this.description = description;
     this.copies = copies;
     this.copiesAvailable = copiesAvailable;
     this.category = category;
